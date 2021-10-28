@@ -1,0 +1,129 @@
+@import "../../varibles.scss";
+
+.signUp {
+  background: url("./img/sigUpback.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.signupImage {
+  height: 100%;
+
+  /* position: relative; */
+  background-color: #efeffe;
+  display: grid;
+  place-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+.signUp__wrapper {
+  font-family: $nunito-font;
+  height: 100vh;
+  display: grid;
+  max-width: 1500px;
+  max-height: 900px;
+  margin: 0 auto;
+
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.sigupForm__wrapper {
+  background-color: white;
+  padding: 40px 40px 80px;
+  width: 100%;
+  height: 100%;
+}
+
+.sigupHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  p {
+    color: #7777af;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  a {
+    margin-left: 20px;
+    color: #5a6287;
+    font-weight: bold;
+    border-radius: 17px;
+    background-color: #fff;
+    border: 2px solid #b7b9ba;
+    padding: 8px 24px;
+    text-decoration: none;
+  }
+}
+
+.sign_form_wrapper {
+  margin-top: 50px;
+  padding: 10px 50px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.signUp_from_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+.form_title {
+  font-size: 44px;
+  font-weight: bold;
+}
+.sub_title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #838384;
+}
+
+.signUp_title_wrapper {
+  margin-bottom: 50px;
+}
+
+.signUp_form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid $input-primary-border;
+    border-radius: 5px;
+    &:focus {
+      outline-color: $input-primary-focus;
+      outline-style: solid;
+      outline-width: 2px;
+      border: none;
+    }
+  }
+}
+
+.resgiter_btn {
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  float: right;
+  font-size: 15px;
+  background-color: $primary-color;
+  -webkit-box-shadow: 2px 14px 13px -5px rgba(116, 54, 255, 0.2);
+  -moz-box-shadow: 2px 14px 13px -5px rgba(116, 54, 255, 0.2);
+  box-shadow: 2px 14px 13px -5px rgba(116, 54, 255, 0.2);
+}

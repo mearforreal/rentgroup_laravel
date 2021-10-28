@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.welcome__container {
+  max-width: 1580px;
+  margin: 10px auto;
+}
+
+.main_container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}

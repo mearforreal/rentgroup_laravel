@@ -1,0 +1,14 @@
+.request_wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.request_wrapper form h2 {
+  text-align: center;
+}
+.css-tixc9p {
+  -webkit-box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
